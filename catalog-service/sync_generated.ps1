@@ -1,10 +1,7 @@
 # Синхронизация сгенерированного кода из контейнера в локальную папку.
-# Запускать после: docker compose up --build -d (на Fedora)
+# Запускать после: docker compose up --build -d 
 # Результат: src/openapi_server/ и src/schemas/generated.py появятся в проекте (для IDE).
-#
-# Если Docker на Fedora 192.168.88.105:
-#   $env:DOCKER_HOST = "tcp://192.168.88.105:2375"
-#   или: docker -H 192.168.88.105 cp ...
+
 
 $ErrorActionPreference = "Stop"
 $Container = "marketplace-catalog"

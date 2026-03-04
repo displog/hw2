@@ -5,8 +5,7 @@ info:
   description: "API для управления товарами и заказами маркетплейса"
 
 servers:
-  #- url: "http://localhost:8000"
-  - url: "http://192.168.88.105:8002"
+  - url: "http://localhost:8000"
     description: "Local development"
 
 paths:

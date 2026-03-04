@@ -1,8 +1,4 @@
-# Полный стек Marketplace API для деплоя на Fedora (192.168.88.105)
-# Запуск: docker compose up -d
-# API: http://192.168.88.105:8002
-# Swagger: http://192.168.88.105:8002/docs
-# pgAdmin: http://192.168.88.105:5052
+# Полный стек Marketplace API для деплоя 
 
 services:
   postgres:
